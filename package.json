@@ -1,6 +1,6 @@
 {
   "name": "@nigelng/eslint-config-base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Nigel Nguyen <nigel@nng.me>",
   "license": "MIT",
   "files": [
@@ -11,26 +11,26 @@
     "url": "git@github.com:nigelng/eslint-config-base.git"
   },
   "main": "index.js",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.4.1",
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "devDependencies": {
-    "@nigelng/prettier-config": "^1.0.0",
-    "eslint": "^8.15.0",
-    "prettier": "^2.6.2"
+    "@nigelng/prettier-config": "^1.2.0",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4"
   },
   "peerDependencies": {
-    "@nigelng/config.prettier": "^1.0.0",
-    "eslint": "^8.15.0",
-    "prettier": "^2.6.2"
+    "@nigelng/prettier-config": "^1.2.0",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.4"
   },
   "dependencies": {
-    "@babel/core": "^7.17.10",
-    "@babel/eslint-parser": "^7.17.0",
+    "@babel/core": "^7.21.0",
+    "@babel/eslint-parser": "^7.19.1",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0"
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
